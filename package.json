@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app used for DevOps Internship Task 1 - CI/CD Pipeline with GitHub Actions and Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "devops",
+    "cicd",
+    "docker",
+    "github-actions"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "type": "commonjs"
+}
